@@ -1,0 +1,105 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.App {
+  text-align: center;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0px;
+}
+
+.title {
+  position: fixed;
+  font-size: 2rem;
+  bottom: 24%;
+  right: -5%;
+  color: #6477da;
+  width: 100%;
+  padding: 0px;
+}
+
+.logTitle {
+  margin-left: 5%;
+  position: fixed;
+  top: 18%;
+  left: 35%;
+  font-size: 1.3rem;
+  color: rgb(30, 36, 191);
+}
+
+.footer{
+  position: fixed;
+  font-size: 1rem;
+  bottom: 0%;
+  display: flex;
+  justify-content: space-around;
+  color: #f3ebeb;
+  width: 100%;
+  padding: 5px;
+  margin: 0%;
+  background-color: #7d7979;
+  border-top: 2px solid white;
+}
+
+.SingleLicense{
+   border: 3px solid blue;
+   border-radius: 10px;
+   background-color: #6477da;
+   width: fit-content;
+   height: fit-content;
+   padding: 0.5% 2% 1% 2%;
+   margin: 3%;
+}
+
+#license_number{
+  margin-bottom: 5%;
+  font-size: 1rem;
+  color: black;
+  font-weight: 900;
+}
+
+.license_details{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.AllLicense{
+  position: sticky;
+  top:2%;
+  margin-top: 20%;
+  margin-left: 20%;
+  width: 800px;
+  border: 1ps solid red;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.back {
+  position: fixed;
+  top: 1%;
+  left: -45%;
+  background: rgba(0, 0, 0, 0);
+  color: #5b5454;
+  width: 100%;
+  padding: 0px;
+}
